@@ -1,26 +1,38 @@
 # Clinix MX — Descarga oficial
 
-Clinix MX es una aplicación de escritorio para Windows x64.
+Aplicación de escritorio Clinix MX para Windows x64.
 
-## Descargar
+## ⬇️ Una sola descarga oficial
 
-La versión más reciente se publica automáticamente como **GitHub Release** en este repositorio.
+**[DESCARGAR CLINIX MX — ÚLTIMA VERSIÓN](https://github.com/Demianvel/ClinixMX-Download/releases/latest)**
 
-**[Descargar Clinix MX](https://github.com/Demianvel/ClinixMX-Download/releases/latest)**
+**[Instalador directo](https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX-Setup.exe)**  
+**[Ejecutable directo](https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX.exe)**
 
-El instalador recomendado es `ClinixMX-Setup.exe`.
+Estos enlaces son permanentes: cuando se publica una actualización, `releases/latest` pasa automáticamente a la nueva versión.
 
 ## Verificación
 
-Cada versión incluye archivos SHA-256 para verificar la integridad del instalador y del ejecutable.
+Cada Release incluye SHA-256 del instalador y del ejecutable para comprobar integridad.
 
-## Arquitectura de publicación
+## Qué contiene este repositorio
 
-- El código fuente y la lógica privada permanecen en el repositorio privado `Demianvel/ClinixMX`.
-- Este repositorio público contiene únicamente los archivos destinados al cliente: instalador, ejecutable, hashes, manifiesto y notas de versión.
-- Los clientes no necesitan acceso al repositorio privado para descargar Clinix MX.
+Este repositorio es **público y exclusivo para distribución**. No contiene el código fuente privado de Clinix MX.
+
+- `ClinixMX-Setup.exe` — instalador Windows x64.
+- `ClinixMX.exe` — ejecutable autocontenido.
+- Archivos SHA-256.
+- `update.json` — manifiesto de actualización.
+- Paquete público de recursos/documentación.
+- Notas de cada Release.
+
+## Arquitectura
+
+- **Privado:** `Demianvel/ClinixMX` — código fuente, billing y lógica privada.
+- **Público:** `Demianvel/ClinixMX-Download` — distribución para clientes.
+- **Administración:** las operaciones de licencias se protegen en el backend y no se exponen en este repositorio.
 
 ## Requisitos
 
 - Windows 10/11 de 64 bits.
-- El instalador configura la aplicación y sus accesos directos.
+- No se requiere instalar .NET por separado para el ejecutable publicado.
