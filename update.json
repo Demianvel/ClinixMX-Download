@@ -1,11 +1,11 @@
 {
+  "executable_sha256": "d0d7cb9e881784c881c3cdd9d92181ab0515598e7d2c2e6b92e28f907561d80b",
+  "version": "1.0.11",
+  "sha256": "1eb23cd3453a1a584ce6fdceb956b5361f64c6d3650f55228fdacdaf4356aa9c",
+  "public_assets_url": "https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX-Public-Assets.zip",
   "executable_url": "https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX.exe",
-  "executable_sha256": "9c228a0f453759ac547ee7baee64c1b51264bf93f577a65fd106893acb9637a9",
-  "sha256": "8cb0cd81958d0b16d20cf961b40930cf0035c986288407113246a957f3f284aa",
-  "release_url": "https://github.com/Demianvel/ClinixMX-Download/releases/tag/v1.0.10",
   "product": "Clinix MX",
-  "version": "1.0.10",
   "platform": "windows-x64",
-  "download_url": "https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX-Setup.exe",
-  "public_assets_url": "https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX-Public-Assets.zip"
+  "release_url": "https://github.com/Demianvel/ClinixMX-Download/releases/tag/v1.0.11",
+  "download_url": "https://github.com/Demianvel/ClinixMX-Download/releases/latest/download/ClinixMX-Setup.exe"
 }
