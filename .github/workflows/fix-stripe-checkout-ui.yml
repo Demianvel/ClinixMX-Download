@@ -1,5 +1,7 @@
 name: Fix Stripe checkout UI
 on:
+  push:
+    paths: ['.github/workflows/fix-stripe-checkout-ui.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -15,8 +17,6 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          import re
-          s=re.sub(r'El checkout est.{0,80}?producci.{0,80}?[<\\"]', lambda m: 'Pago con Stripe'+m.group(0)[-1], s, flags=re.I)
           s=s.replace('El checkout está preparado, pero el servidor privado de facturación todavía no está publicado en producción','Pago con Stripe')
           s=s.replace('El checkout est\\u00e1 preparado, pero el servidor privado de facturaci\\u00f3n todav\\u00eda no est\\u00e1 publicado en producci\\u00f3n','Pago con Stripe')
           p.write_text(s,encoding='utf-8')
