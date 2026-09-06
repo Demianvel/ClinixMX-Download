@@ -1,0 +1,4 @@
+Contact: https://github.com/Demianvel/ClinixMX/security/advisories/new
+Policy: https://github.com/Demianvel/ClinixMX/blob/main/SECURITY.md
+Expires: 2027-09-06T00:00:00Z
+Preferred-Languages: es, en
